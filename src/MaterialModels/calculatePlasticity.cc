@@ -4,7 +4,7 @@
 //////calculatePlasticity.cc numerically integrates the constitive model.
 //////This calculatePlasticity.cc is based on the following rate-dependent crystal plasticity model:
 //////SR Kalidindi, Polycrystal plasticity: constitutive modeling and deformation processing,
-////// PhD thesis, MIT, 1992. In addition to isotropic hardening tehre is also kinematic hardening
+////// PhD thesis, MIT, 1992. In addition to isotropic hardening there is also kinematic hardening
 ////// where the backstress evolves based on the OW hardening model. The guess stress to start the
 ////// Newton-Raphson iteration is the previously converged stress. Exponential update of Fp is
 //// implemented along with a line-search algorithm to solve the nonlinear system. The
